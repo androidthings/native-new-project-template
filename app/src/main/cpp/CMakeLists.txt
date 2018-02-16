@@ -42,3 +42,6 @@ target_link_libraries(nativeapp
                       log
                       native-app-glue
                       androidthings)
+# Force export of ANativeActivity_onCreate.
+set(CMAKE_SHARED_LINKER_FLAGS
+    "${CMAKE_SHARED_LINKER_FLAGS} -u ANativeActivity_onCreate")

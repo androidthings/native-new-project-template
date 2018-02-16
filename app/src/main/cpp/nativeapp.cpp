@@ -30,8 +30,6 @@ const int LOOPER_POLL_DELAY_MS = 0;
 #define ASSERT(cond, ...) if (!(cond)) { __android_log_assert(#cond, TAG, __VA_ARGS__);}
 
 void android_main(android_app* app) {
-    app_dummy(); // prevent native-app-glue to be stripped.
-
     while (!app->destroyRequested) {
         android_poll_source* source;
         int pollResult = ALooper_pollOnce(LOOPER_POLL_DELAY_MS,
