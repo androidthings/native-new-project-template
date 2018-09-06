@@ -11,9 +11,11 @@ Pre-requisites
 Build and install
 =================
 
-[Download](https://github.com/androidthings/native-libandroidthings/releases) the latest Android Things native library release and extract it in the project root directory.
+[Download](https://github.com/androidthings/native-libandroidthings/releases) the latest
+Android Things native library release and extract it in the project root directory. You
+will need to change the name of the extracted directory to `libandroidthings`.
 
-It should contains the following directories:
+The project root directory should contain the following native library directories:
 ```
 libandroidthings/
   ${ABI}/
