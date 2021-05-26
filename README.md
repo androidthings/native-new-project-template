@@ -2,6 +2,10 @@ Android Things empty project template
 =====================================
 Use this empty project as a template for your native Android Things project.
 
+> **Note:** The Android Things Console will be turned down for non-commercial
+> use on January 5, 2022. For more details, see the
+> [FAQ page](https://developer.android.com/things/faq).
+
 Pre-requisites
 --------------
 - Android Things compatible board
